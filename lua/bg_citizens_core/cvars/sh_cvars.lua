@@ -1,16 +1,16 @@
 bgNPC.cvar = bgNPC.cvar or {}
 bgNPC.cvar.bgn_enable = 1
 bgNPC.cvar.bgn_debug = 0
-bgNPC.cvar.bgn_max_npc = 35
-bgNPC.cvar.bgn_spawn_radius = 3000
-bgNPC.cvar.bgn_disable_logic_radius = 500
-bgNPC.cvar.bgn_spawn_radius_visibility = 2500
-bgNPC.cvar.bgn_spawn_radius_raytracing = 2000
-bgNPC.cvar.bgn_spawn_block_radius = 600
+bgNPC.cvar.bgn_max_npc = 10
+bgNPC.cvar.bgn_spawn_radius = 3072
+bgNPC.cvar.bgn_disable_logic_radius = 512
+bgNPC.cvar.bgn_spawn_radius_visibility = 2048
+bgNPC.cvar.bgn_spawn_radius_raytracing = 2048
+bgNPC.cvar.bgn_spawn_block_radius = 512
 bgNPC.cvar.bgn_spawn_period = 1
-bgNPC.cvar.bgn_ptp_distance_limit = 500
-bgNPC.cvar.bgn_point_z_limit = 100
-bgNPC.cvar.bgn_enable_wanted_mode = 1
+bgNPC.cvar.bgn_ptp_distance_limit = 512
+bgNPC.cvar.bgn_point_z_limit = 128
+bgNPC.cvar.bgn_enable_wanted_mode = 0
 bgNPC.cvar.bgn_wanted_time = 30
 bgNPC.cvar.bgn_wanted_level = 1
 bgNPC.cvar.bgn_wanted_hud_text = 1
@@ -24,7 +24,7 @@ bgNPC.cvar.bgn_disable_citizens_weapons = 0
 bgNPC.cvar.bgn_disable_halo = 0
 bgNPC.cvar.bgn_enable_dv_support = 1
 bgNPC.cvar.bgn_disable_dialogues = 0
-bgNPC.cvar.bgn_tool_draw_distance = 1000
+bgNPC.cvar.bgn_tool_draw_distance = 1024
 
 if CLIENT then
 	bgNPC.cvar.bgn_cl_field_view_optimization = 0
