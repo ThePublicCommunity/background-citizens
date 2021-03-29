@@ -138,7 +138,6 @@ bgNPC.cfg.npcs_template = {
 		at_protect = {
 			['fear'] = 90,
 			['defense'] = 10,
-			--['calling_police'] = 20,
 		}
 	},
 	['pilferer'] = {
@@ -151,12 +150,11 @@ bgNPC.cfg.npcs_template = {
 		health = 100,
 		weaponSkill = WEAPON_PROFICIENCY_AVERAGE,
 		randomBodygroups = true,
-		at_random_range = 130,
+		at_random_range = 120,
 		at_random = {
 			['walk'] = 50,
 			['idle'] = 25,
 			['steal'] = 25,
-			['impingement'] = 10,
 			['sit_to_chair'] = 10,
 			['dv_vehicle_drive'] = 10,
 		},
@@ -319,7 +317,7 @@ bgNPC.cfg.npcs_template = {
 		name = 'Assault Helicopter',
 		disableStates = true,
 		respawn_delay = 15,
-		limit = 0,
+		limit = 1,
 		wanted_level = 5,
 		team = { 'residents', 'police' },
 		money = { 0, 500 },
